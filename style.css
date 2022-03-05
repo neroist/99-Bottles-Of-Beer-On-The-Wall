@@ -3,3 +3,7 @@ body {
   text-align: center;
   white-space: pre-line;
 }
+
+html {
+  scroll-behavior: smooth;
+}
