@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>99 Bottles Of Beer On The Wall</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>99 Bottles Of Beer On The Wall</h1>
+        <p id="bottles-of-beer"></p>
+        <!--Empty <p> tag so the code doesn't refer to an element that doesn't exist-->
+        <script>
+            document.getElementById("bottles-of-beer").innerHTML = bottlesOfBeerOnTheWall(99).join('\n')
+        </script>
+    </body>
+</html>
